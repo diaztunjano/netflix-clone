@@ -5,8 +5,31 @@ import HomeScreen from "./components/HomeScreen.js";
 function App() {
   return (
     <div className="app">
-      <h1>Netflix App</h1>
       <HomeScreen />
+      <h1>Test</h1>
+      <h1>Test</h1>
+
+      <h1>Test</h1>
+      <h1>Test</h1>
+      <h1>Test</h1>
+      <h1>Test</h1>
+      <h1>Test</h1>
+      <h1>Test</h1>
+      <h1>Test</h1>
+      <h1>Test</h1>
+      <h1>Test</h1>
+      <h1>Test</h1>
+      <h1>Test</h1>
+      <h1>Test</h1>
+      <h1>Test</h1>
+      <h1>Test</h1>
+      <h1>Test</h1>
+      <h1>Test</h1>
+      <h1>Test</h1>
+      <h1>Test</h1>
+      <h1>Test</h1>
+      <h1>Test</h1>
+      <h1>Test</h1>
     </div>
   );
 }
