@@ -19,7 +19,13 @@ This document serves as guidance to the process of creating this app. It it buil
 
 ### React Stuff:
   - Nav Bar:
-    - Using useEffect, I declare an event listening to the scroll of the page. After a certain px, the show variable is set true with useState and it changes the css className of the div that cointains the Navbar.  
+    - Using `useEffect`, I declare an event listening to the scroll of the page. After a certain px, the show variable is set true with useState and it changes the css className of the div that cointains the Navbar.  
 
 ***
-
+### CSS Stuff:
+  - `object-fit: contain;`:
+    - It keeps the aspect regardless of what it is inside. If it has a bigger image, it keeps the aspect ratio. 
+  
+  - `banner--fadeBottom;`:
+    - It is an self containing empty div styled to give a fading appearence.
+***
