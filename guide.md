@@ -18,8 +18,11 @@ This document serves as guidance to the process of creating this app. It it buil
 ***
 
 ### React Stuff:
-  - Nav Bar:
-    - Using `useEffect`, I declare an event listening to the scroll of the page. After a certain px, the show variable is set true with useState and it changes the css className of the div that cointains the Navbar.  
+  - **Nav Bar:**
+    - Using `useEffect`, I declare an event listening to the scroll of the page. After a certain px, the show variable is set true with useState and it changes the css className of the div that cointains the Navbar. 
+  
+  - **Weird If conditionals:**
+    - `string?.length > n ? string.substr(0, n - 1) + "..." : string;`: In this case, I'm saying if there is a string (with the ?), if the lenght is greater than n, then use string.substr() + '...', else, use regular string.
 
 ***
 ### CSS Stuff:
