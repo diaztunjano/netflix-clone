@@ -34,4 +34,7 @@ This document serves as guidance to the process of creating this app. It it buil
   
   - `banner--fadeBottom;`:
     - It is an self containing empty div styled to give a fading appearence.
+
+  - `.row__posters::-webkit-scrollbar`
+    - In the CSS file, it removes the scroll bar from the row component
 ***
